@@ -1,5 +1,5 @@
 # MyKatalog
-Submission Dicoding membuat aplikasi katalog game dari hasil pembelajaran yang telah dilakukan.
+Submission Dicoding membuat aplikasi katalog game dari hasil pembelajaran yang telah dilakukan. Aplikasi ini dibuat menggunakan xcode 13.
 
 
 ![Screen Shot 2021-10-26 at 11 30 29](https://user-images.githubusercontent.com/28343688/138809208-63dd7ce7-bb9f-42ee-ab78-17599ef1149d.png)
