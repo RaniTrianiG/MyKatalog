@@ -14,6 +14,7 @@ struct KatalogDetail: View {
     @State private var name = "Loading..."
     @State private var description = "Loading..."
     @State private var released = "Loading..."
+    @State private var rating = "Loading..."
     var body : some View {
         ScrollView {
             VStack {
@@ -26,12 +27,14 @@ struct KatalogDetail: View {
                     .indicator(.activity)
                     .cornerRadius(10)
                     .transition(.fade(duration: 0.5))
-                    .scaledToFit()
+                    .scaledToFill()
                     .frame(width: 320, height: 340, alignment: .center)
                 Text("Tanggal Rilis: \(released)")
-                    .font(.system(size: 14)).fontWeight(.bold).padding()
+                    .font(.system(size: 17)).fontWeight(.bold).padding()
+                Text("Rating: \(String(rating)) / 5")
+                    .font(.system(size: 17)).fontWeight(.bold)
                 if let attrString = attributedString {
-                    Text(attrString).font(.system(size: 25))
+                    Text(attrString).font(.system(size: 25)).padding(5)
                 }
             }
         }.padding(EdgeInsets(top: 10, leading: 20, bottom: 0, trailing: 20  ))
@@ -53,6 +56,7 @@ struct KatalogDetail: View {
                             self.name = decodedResponse.name
                             self.description = decodedResponse.description
                             self.released = decodedResponse.released
+                            self.rating = (String(decodedResponse.rating))
                             self.parseHTMLToAttributedString()
                         }
                     } catch DecodingError.keyNotFound(let key, let context) {
