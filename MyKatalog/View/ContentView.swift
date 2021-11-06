@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let coreDM: CoreDataManager
+    
     var body: some View {
-        NavigationView{
-            KatalogList()
+        NavigationView {
+            DetailView()
         }
         .onAppear{
             UIDevice.current.setValue(UIInterfaceOrientation.portrait.rawValue, forKey: "orientation")
@@ -21,3 +24,8 @@ struct ContentView: View {
     }
 }
 
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView(coreDM: CoreDataManager())
+    }
+}

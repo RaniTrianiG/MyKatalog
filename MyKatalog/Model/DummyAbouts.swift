@@ -8,7 +8,5 @@
 import Foundation
 
 var katalogAbouts : [KatalogAbout] = [
-    KatalogAbout(id: 1, photo: "photo_rani", name: "Rani Triani G", description: """
-    Dicoding Submission Studi kasus Katalog Game
-    """),
+    KatalogAbout(id: 1, photo: "photo_rani", name: "Rani Triani G", description: "Dicoding Submission Studi kasus Katalog Game"),
 ]

@@ -13,6 +13,7 @@ struct ResponseDetail: Decodable {
     var description: String
     var released : String
     var rating: Double
+    var background_image: String
 }
 
 struct DetailKatalog: Decodable {
