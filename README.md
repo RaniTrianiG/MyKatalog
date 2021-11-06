@@ -1,7 +1,12 @@
 # MyKatalog
-Submission Dicoding membuat aplikasi katalog game dari hasil pembelajaran yang telah dilakukan. Aplikasi ini dibuat menggunakan xcode 13, dan direkomendasikan cek menggunakan iphone 8+ keatas.
+Projek Akhir Dicoding membuat aplikasi katalog game. Aplikasi ini dibuat menggunakan xcode 13, dan direkomendasikan cek menggunakan iphone 8+ keatas.
 
-
+New Update :
+- Fitur Onboarding
+- Fitur search
+- Fitur edit profile
+- Fitur Favorite ( Add Game to list, Delete game from list, detail list favorite game)
+- Fitur Toggle Mode
 ![Screen Shot 2021-10-26 at 11 30 29](https://user-images.githubusercontent.com/28343688/138809208-63dd7ce7-bb9f-42ee-ab78-17599ef1149d.png)
 ![Screen Shot 2021-10-26 at 11 30 38](https://user-images.githubusercontent.com/28343688/138809217-066a077b-82b0-467f-a695-538a00868a66.png)
 ![Screen Shot 2021-10-26 at 11 30 42](https://user-images.githubusercontent.com/28343688/138809218-15607eb7-09ba-4fcb-8432-b211aef64e8a.png)
